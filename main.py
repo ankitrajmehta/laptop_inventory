@@ -75,6 +75,7 @@ class Home():
 
             elif inp == 'o':
                 try:
+                    buy_list = []
                     o = int(input("Enter id of Laptop You Want To order:"))
                     if o > len(self.data):
                         raise KeyError
